@@ -1,11 +1,12 @@
 .ad {
     width: 94%;
-    height: 42vw;
+    height: 41vw;
+    position: relative;
+    overflow: hidden;
 
-    .swiper-wrap {
-        width: 100%;
+    &.swiper {
         .swiper-slide {
-            height: 100%;
+            height: auto !important;
             height: 100%;
             border: 1px solid $border_color01;
             border-radius: 10px;
@@ -30,7 +31,7 @@
     display: flex;
     flex-shrink: 0;
     padding: 0 27px 0 15px;
-    margin: 5px auto 10px auto;
+    margin: 10px auto;
 
     .title {
         width: 10%;
@@ -48,6 +49,7 @@
         border: 1px solid $border_color01;
         border-radius: 8px;
         margin: auto 0;
+        overflow: hidden;
 
         .content {
             width: 100%;
@@ -57,6 +59,16 @@
             color: $mainFont;
             font-size: 4vw;
             padding: 0 0 0 10px;
+            animation: mq 3s linear infinite;
+
+            @keyframes mq {
+                0% {
+                    transform: translateX(100%);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
         }
     }
 }
