@@ -30,8 +30,8 @@
     border-radius: 10px;
     display: flex;
     flex-shrink: 0;
-    padding: 0 27px 0 15px;
-    margin: 10px auto;
+    padding: 0 4vw 0 2vw;
+    margin: 5vw auto;
 
     .title {
         width: 10%;
@@ -39,7 +39,7 @@
         font-size: 4.4vw;
         white-space: nowrap;
         flex-shrink: 0;
-        margin: auto 15px auto auto;
+        margin: auto 2vw auto auto;
     }
 
     .textBox {
@@ -59,7 +59,7 @@
             color: $mainFont;
             font-size: 4vw;
             padding: 0 0 0 10px;
-            animation: mq 3s linear infinite;
+            animation: mq 6s linear infinite;
 
             @keyframes mq {
                 0% {

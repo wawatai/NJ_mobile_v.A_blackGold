@@ -180,7 +180,7 @@ html body {
 html body main {
   width: 100%;
   height: auto;
-  padding: 64px 0 0;
+  padding: 18vw 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,7 +201,7 @@ html body .bg {
 }
 html header {
   width: 100%;
-  height: 55px;
+  height: 14vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,43 +215,44 @@ html header {
   background: linear-gradient(to right, #323232 0%, #282727 50%, #323232 100%);
   border-radius: 0 0 25px 25px;
   border: 1px solid #a98f48;
-  padding: 0 13px;
+  padding: 0 5vw;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
 }
 html header .menu {
-  width: 23px;
-  height: 24px;
+  width: 10vw;
+  height: 4vw;
+  padding: 0 2vw;
 }
 html header .menu span {
   width: 100%;
-  height: 4px;
+  height: 1vw;
   display: block;
   background: #e6c782;
 }
 html header .menu span:nth-of-type(2) {
-  margin: 4px 0;
+  margin: 0.8vw 0;
 }
 html header .logo img {
-  width: 80px;
-  height: 25px;
+  width: 23vw;
+  height: auto;
 }
 html header .message {
-  width: 41px;
-  height: 25px;
+  width: 10vw;
+  height: 6vw;
   position: relative;
 }
 html header .message::before {
   content: "";
-  width: 10px;
-  height: 10px;
+  width: 3vw;
+  height: 3vw;
   background: linear-gradient(-45deg, #7e30c9 0%, #e43ebb 100%);
   border-radius: 10px;
   position: absolute;
-  top: -5px;
-  right: -5px;
+  top: -6px;
+  right: -6px;
 }
 html .ad {
   width: 94%;
@@ -284,8 +285,8 @@ html .marquee {
   display: flex;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  padding: 0 27px 0 15px;
-  margin: 10px auto;
+  padding: 0 4vw 0 2vw;
+  margin: 5vw auto;
 }
 html .marquee .title {
   width: 10%;
@@ -294,7 +295,7 @@ html .marquee .title {
   white-space: nowrap;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: auto 15px auto auto;
+  margin: auto 2vw auto auto;
 }
 html .marquee .textBox {
   width: 90%;
@@ -318,8 +319,8 @@ html .marquee .textBox .content {
   color: #f8e9ad;
   font-size: 4vw;
   padding: 0 0 0 10px;
-  -webkit-animation: mq 3s linear infinite;
-          animation: mq 3s linear infinite;
+  -webkit-animation: mq 6s linear infinite;
+          animation: mq 6s linear infinite;
 }
 @-webkit-keyframes mq {
   0% {
@@ -410,7 +411,7 @@ html .homeCenter .gameType {
   -ms-grid-columns: 3fr 2vw 3fr 2vw 3fr;
   grid-template-columns: repeat(3, 3fr);
   gap: 2vw;
-  margin-top: 8vw;
+  margin-top: 5vw;
 }
 html .homeCenter .gameType .gameBlock {
   width: 30vw;
@@ -468,7 +469,7 @@ html .homeCenter .gameType .gameBlock .gameName {
 }
 html footer {
   width: 100%;
-  height: 65px;
+  height: 16vw;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -521,7 +522,7 @@ html footer ul li:active p, html footer ul li.active p {
 html footer ul li i {
   width: 6vw;
   height: 7vw;
-  margin-bottom: 5px;
+  margin-bottom: 0.8vw;
 }
 html footer ul li p {
   font-size: 3.5vw;

@@ -4,10 +4,15 @@ $(function(){
         autoHeight: true,
         loop: true,
         autoplay: {
-            delay: 1500,
+            delay: 2500,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
         },
         slidesPerView: 1,
+    })
+    //footer
+    $("footer ul li").click(function(){
+        $(this).toggleClass("active");
+        $(this).siblings().removeClass("active");
     })
 })
